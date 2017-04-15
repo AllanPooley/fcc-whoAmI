@@ -20,5 +20,9 @@
   "bugs": {
     "url": "https://github.com/AllanPooley/fcc-whoAmI/issues"
   },
-  "homepage": "https://github.com/AllanPooley/fcc-whoAmI#readme"
+  "homepage": "https://github.com/AllanPooley/fcc-whoAmI#readme",
+  "dependencies": {
+    "express": "^4.15.2",
+    "pug": "^2.0.0-beta11"
+  }
 }
