@@ -4,7 +4,7 @@
 }
 
 body {
-  background-color: #2574A9;
+  background-color: #BE90D4;
 }
 
 h1 {
@@ -16,13 +16,20 @@ h2 {
 }
 
 .heading {
-  margin-bottom: 20px;
-  font-family: 'Sigmar One', cursive;
+  margin-bottom: 15px;
+  font-family: 'Bowlby One SC', cursive;
   text-align: center;
 }
 
 .text {
-  font-family: 'Nunito', sans-serif;
+  font-family: 'Lato', sans-serif;
+}
+
+.code {
+  font-family: Courier, 'New Courier', monospace;
+  font-size: 1em;
+  font-weight: bold;
+  color: black;
 }
 
 .container {
@@ -32,3 +39,28 @@ h2 {
   align-items: center;
   margin: 50px 0px;
 }
+
+.box {
+  display: flex;
+  flex-flow: column;
+  padding: 30px;
+  border: 1px solid black;
+  border-radius: 10px;
+  margin: 10px;
+}
+
+.text-block {
+  width: 100%;
+  max-width: 600px;
+  text-align: center;
+  margin-bottom: 20px;
+  word-wrap: break-word;
+  white-space: pre-line;
+}
+
+@media screen and (max-width: 600px) {
+  .text-block  {
+    width: calc(100vw - 91px);
+  }
+}
+

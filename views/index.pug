@@ -5,11 +5,22 @@ html
         meta(http-equiv="X-UA-Compatible", content="IE=edge")
         meta(name="viewport", content="width=device-width, initial-scale=1")
         link(rel='stylesheet', href='/style.css')
-        link(rel='stylesheet', href='https://fonts.googleapis.com/css?family=Patrick+Hand|Sigmar+One|Nunito' type='text/css') 
+        link(href="https://fonts.googleapis.com/css?family=Bowlby+One+SC|Lato", rel="stylesheet", type='text/css')
 
     div.container
-        h1.heading The Request Header Sniffer!
-    
+        h1.heading A Request Header Sniffer!
+        div.box
+            h2.heading Description
+            div.text-block
+                p.text This service provides information about the client (ie. you, and your computer), the information contained in the request header.<br /><br />When you hit this service, we'll return to you your IP address, your language, your operating system. All packaged up into a neat little JSON.<br /><br /><br /><b>To use this service, just whack on /api/whoami on to the tail end of this url!</b>
+            
+            h2.heading Example API Calls
+            div.text-block
+                p.code https://header-sniffer.glitch.me/api/whoami
+            h2.heading Example Response
+            div.text-block
+                p.code { "ipaddress" : "58.111.141.98", "language" : "en-GB", "software" : "Windows NT 10.0; WOW64"}
+
     
     script(src="https://code.jquery.com/jquery-2.2.1.min.js", integrity="sha256-gvQgAFzTH6trSrAWoH1iPo9Xc96QxSZ3feW6kem+O00=", crossorigin="anonymous")
     script(src='/client.js')
