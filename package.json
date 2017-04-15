@@ -1,0 +1,24 @@
+{
+  "name": "fcc-whoami",
+  "version": "0.0.1",
+  "description": "A microservice that delivers information about the user agent. The IP Address, the client-side language and Operating System.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AllanPooley/fcc-whoAmI.git"
+  },
+  "keywords": [
+    "user-agent",
+    "node",
+    "express"
+  ],
+  "author": "Allan Pooley",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/AllanPooley/fcc-whoAmI/issues"
+  },
+  "homepage": "https://github.com/AllanPooley/fcc-whoAmI#readme"
+}
